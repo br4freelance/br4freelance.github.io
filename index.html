@@ -53,16 +53,21 @@
     <p>BR4freelance is a team of skilled freelancers providing business-driven IT services at cost-effective prices. We specialize in delivering results with modern design, scalable development, and smart automation.</p>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn-primary">Send Message</button>
-    </form>
-  </section>
+  <form
+  action="https://formspree.io/f/xovnojdq"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
   <!-- Footer -->
   <footer class="footer">
