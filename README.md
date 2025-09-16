@@ -3,66 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abhishek Ranaut | Portfolio</title>
-  <meta name="description" content="Portfolio of Abhishek Ranaut — Web Designer, Python Developer, SEO Specialist, and AI Chatbot Developer.">
+  <title>BR4freelance | Business-Driven Freelance Services</title>
+  <meta name="description" content="BR4freelance - A group of freelancers providing cost-effective and business-driven services in Web Design, Development, SEO, and AI solutions.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navigation -->
+  <!-- Navbar -->
   <nav class="navbar">
     <div class="container nav-container">
-      <h1 class="logo">Abhishek Ranaut</h1>
+      <h1 class="logo">BR4freelance</h1>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <header class="hero">
     <div class="container">
-      <h2>Hi 👋, I'm <span>Abhishek</span></h2>
-      <p class="tagline">Web Designer | Python Developer | SEO Specialist | AI Chatbot Developer</p>
-      <a href="#projects" class="btn">View My Work</a>
+      <h2>We are <span>BR4freelance</span></h2>
+      <p class="tagline">Providing cost-effective, business-driven freelance services</p>
+      <a href="#services" class="btn">Explore Our Services</a>
     </div>
   </header>
 
   <!-- About -->
   <section id="about" class="section">
     <div class="container">
-      <h2>About Me</h2>
+      <h2>About Us</h2>
       <p>
-        I am passionate about creating user-friendly, responsive websites and building 
-        intelligent digital solutions. With experience in web design, full-stack development, 
-        SEO, and AI-powered chatbots, I help businesses grow their online presence and 
-        improve customer engagement.
+        BR4freelance is a group of passionate freelancers offering innovative 
+        and reliable solutions to help businesses grow online. We specialize in 
+        creating effective websites, scalable applications, and smart digital 
+        marketing strategies that drive results.
       </p>
     </div>
   </section>
 
-  <!-- Skills -->
-  <section id="skills" class="section bg-light">
+  <!-- Services -->
+  <section id="services" class="section bg-light">
     <div class="container">
-      <h2>My Skills</h2>
+      <h2>Our Services</h2>
       <div class="grid">
         <div class="card">
           <h3>Web Design</h3>
-          <p>WordPress, Webflow, Shopify, Wix, BigCommerce</p>
+          <p>Creative, responsive, and user-friendly designs for WordPress, Webflow, Shopify, and more.</p>
         </div>
         <div class="card">
           <h3>Development</h3>
-          <p>Python, Django, React, Node.js, Laravel</p>
+          <p>Custom development with Python, React, Node.js, and Laravel for business applications.</p>
         </div>
         <div class="card">
           <h3>SEO</h3>
-          <p>On-page, Off-page, Technical SEO, Local SEO</p>
+          <p>Result-driven SEO including On-page, Off-page, Technical SEO, and Local SEO strategies.</p>
         </div>
         <div class="card">
           <h3>AI Solutions</h3>
-          <p>Chatbots, Automation, Business AI Tools</p>
+          <p>Intelligent AI chatbots, automation tools, and business AI integrations to enhance efficiency.</p>
         </div>
       </div>
     </div>
@@ -71,17 +71,19 @@
   <!-- Projects -->
   <section id="projects" class="section">
     <div class="container">
-      <h2>Projects</h2>
+      <h2>Recent Projects</h2>
       <div class="grid">
         <div class="card">
-          <h3>Portfolio Website</h3>
-          <p>A responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
-          <a href="https://github.com/yourusername/portfolio" target="_blank">View Code</a>
+          <h3>E-commerce Redesign</h3>
+          <p>Revamped a Shopify store with modern UI, boosting sales by 40%.</p>
         </div>
         <div class="card">
-          <h3>SEO Dashboard</h3>
-          <p>An analytics tool for monitoring SEO performance and ranking.</p>
-          <a href="https://github.com/yourusername/seo-dashboard" target="_blank">View Code</a>
+          <h3>SEO Campaign</h3>
+          <p>Executed a local SEO strategy for a business, increasing organic traffic by 65%.</p>
+        </div>
+        <div class="card">
+          <h3>AI Chatbot</h3>
+          <p>Developed a customer-support chatbot that reduced response time by 70%.</p>
         </div>
       </div>
     </div>
@@ -90,16 +92,15 @@
   <!-- Contact -->
   <section id="contact" class="section bg-light">
     <div class="container">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:br4freelance@gmail.com">br4freelance@gamil.com</a></p>
+      <p>GitHub: <a href="https://github.com/br4freelance" target="_blank">github.com/br4freelance</a></p>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© <span id="year"></span> Abhishek Ranaut | All Rights Reserved</p>
+    <p>© <span id="year"></span> BR4freelance | Cost-effective, business-driven freelance services</p>
   </footer>
 
   <script>
@@ -107,3 +108,145 @@
   </script>
 </body>
 </html>
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background: #111;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #00c2ff;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #0077cc, #00c2ff);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero span {
+  color: #ffeb3b;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #fff;
+  color: #0077cc;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #f0f0f0;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 1rem;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.bg-light {
+  background: #f1f1f1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  color: #0077cc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #111;
+  color: #fff;
+  padding: 1rem 0;
+}
