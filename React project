@@ -1,8 +1,0 @@
-# Create a Vite + React app
-npm create vite@latest br4freelance-site
-
-# Choose: React
-cd br4freelance-site
-
-# Install dependencies
-npm install
