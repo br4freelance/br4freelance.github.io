@@ -6,26 +6,24 @@
 
   <title>BR4freelance | Cost-Effective Freelance Solutions</title>
   <meta name="description" content="BR4freelance offers affordable web design, development, SEO, automation, AI chatbot solutions, and Odoo ERP services. We help businesses grow with scalable and modern technologies.">
-  <meta name="keywords" content="freelance web design, web development, SEO services, automation, AI chatbot development, Odoo ERP, affordable IT solutions">
   <meta name="author" content="BR4freelance">
 
-  <!-- Open Graph (SEO for social media) -->
-  <meta property="og:title" content="BR4freelance | Freelance IT Services">
-  <meta property="og:description" content="Affordable and scalable freelance IT solutions - Web Design, Development, SEO, Automation & AI.">
-  <meta property="og:image" content="assets/og-image.jpg">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://yourwebsite.com">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Inter&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Inter&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css?v=4" />
 </head>
 <body>
   <!-- Navbar -->
   <header class="navbar">
     <a href="index.html" aria-label="BR4freelance Home">
-      <img src="assets/logo.png" alt="BR4freelance Logo" class="logo" />
+      <img src="assets/logo.webp" alt="BR4freelance Logo" class="logo" width="200" height="auto">
     </a>
     <nav>
       <ul class="nav-links">
@@ -40,12 +38,12 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="hero">
     <div class="hero-content">
       <h1>Cost-Effective Freelance Solutions</h1>
       <p>We design, develop, and optimize digital solutions to help businesses grow with modern and scalable technologies.</p>
-      <a href="#contact" class="btn-primary">Get Started</a>
+      <a href="#contact" class="btn-primary">Contact Us</a>
     </div>
   </section>
 
@@ -53,30 +51,63 @@
   <section id="services" class="services">
     <h2>Our Services</h2>
     <div class="service-grid">
-      <div class="card"><i class="fas fa-laptop-code"></i><h3>Web Design</h3><p>WordPress, Shopify, Webflow, Wix, BigCommerce</p></div>
-      <div class="card"><i class="fas fa-code"></i><h3>Web Development</h3><p>Laravel, PHP, React, Node.js, Python</p></div>
-      <div class="card"><i class="fas fa-search"></i><h3>SEO Services</h3><p>On-page, Off-page, Technical, Local</p></div>
-      <div class="card"><i class="fas fa-robot"></i><h3>Automation & AI</h3><p>Python scripts, Chatbots, Data scraping</p></div>
-      <div class="card"><i class="fas fa-cogs"></i><h3>Odoo ERP</h3><p>Custom modules & integrations</p></div>
-      <div class="card"><i class="fas fa-pencil-ruler"></i><h3>UI/UX Design</h3><p>Figma prototypes & wireframes</p></div>
+      <div class="card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Web Design</h3>
+        <p>WordPress, Shopify, Webflow, Wix</p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-pencil-ruler"></i>
+        <h3>Web Designing (UI/UX)</h3>
+        <p>Figma prototypes, Wireframes, User-friendly interfaces</p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Laravel, PHP, React, Node.js, Python</p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-robot"></i>
+        <h3>Automation & AI</h3>
+        <p>Chatbots, Python scripts</p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-cogs"></i>
+        <h3>Odoo ERP</h3>
+        <p>Custom modules, integrations</p>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-search"></i>
+        <h3>SEO Services</h3>
+        <p>On-page, Off-page, Technical, Local</p>
+      </div>
     </div>
   </section>
 
-  <!-- Projects -->
+  <!-- Projects (Scrollable) -->
   <section id="projects" class="projects">
     <h2>Recent Projects</h2>
-    <div class="project-grid">
+    <div class="project-scroll">
       <div class="project-card">
-        <img src="assets/project1.jpg" alt="E-commerce website project screenshot">
+        <img src="assets/project1.webp" alt="E-commerce Website" loading="lazy">
         <h3>E-commerce Website</h3>
       </div>
       <div class="project-card">
-        <img src="assets/project2.jpg" alt="Landing page project screenshot">
+        <img src="assets/project2.webp" alt="Landing Page" loading="lazy">
         <h3>Business Landing Page</h3>
       </div>
       <div class="project-card">
-        <img src="assets/project3.jpg" alt="Custom AI chatbot project screenshot">
+        <img src="assets/project3.webp" alt="AI Chatbot" loading="lazy">
         <h3>Custom AI Chatbot</h3>
+      </div>
+      <div class="project-card">
+        <img src="assets/project4.webp" alt="ERP Customization" loading="lazy">
+        <h3>ERP Customization</h3>
       </div>
     </div>
   </section>
@@ -86,11 +117,11 @@
     <div class="about-container">
       <div class="about-text">
         <h2>About Us</h2>
-        <p>BR4freelance is a team of skilled freelancers providing business-driven IT services at cost-effective prices. We specialize in delivering results with modern design, scalable development, and smart automation.</p>
-        <p>Our mission is to empower businesses by creating tailored solutions that drive growth and efficiency.</p>
+        <p>BR4freelance is a team of skilled freelancers providing business-driven IT services at cost-effective prices.</p>
+        <p>We specialize in delivering results with modern design, scalable development, and smart automation.</p>
       </div>
       <div class="about-image">
-        <img src="assets/about.jpg" alt="BR4freelance team at work">
+        <img src="assets/about.webp" alt="Our Team" loading="lazy">
       </div>
     </div>
   </section>
@@ -98,20 +129,20 @@
   <!-- Contact -->
   <section id="contact" class="contact">
     <h2>Contact Us</h2>
-    <p>We’d love to hear from you! Fill out the form below and we’ll get back to you as soon as possible.</p>
+    <p>We’d love to hear from you! Click a link below or fill out the form.</p>
 
-    <form action="https://formspree.io/f/yourFormID" method="POST" class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
-      <textarea name="message" placeholder="Your Message" aria-label="Your Message" required></textarea>
+    <div class="contact-links">
+      <a href="mailto:support@br4freelance.com"><i class="fas fa-envelope"></i> support@br4freelance.com</a>
+      <a href="tel:+919876543210"><i class="fas fa-phone"></i> +91 98765 43210</a>
+      <a href="https://wa.me/919876543210" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+    </div>
+
+    <form action="https://formspree.io/f/xovnojdq" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit" class="btn-primary">Send Message</button>
     </form>
-
-    <div class="social-links">
-      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-    </div>
   </section>
 
   <!-- Footer -->
@@ -123,12 +154,14 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div>
         <h4>Contact</h4>
-        <p>Email: br4freelance@gmail.com</p>
-        <p>Phone: +91 8586851793</p>
+        <p><a href="mailto:br4freelance@gmail.com">br4freelance@gmail.com</a></p>
+        <p><a href="tel:+918586851793">+91 8586851793</a></p>
+        <p><a href="https://wa.me/918586851793" target="_blank">WhatsApp</a></p>
       </div>
       <div>
         <h4>Follow Us</h4>
@@ -142,7 +175,6 @@
     <p class="footer-bottom">© 2025 BR4freelance. All rights reserved.</p>
   </footer>
 
-  <!-- Scripts -->
   <script>
     // Mobile menu toggle
     const hamburger = document.querySelector('.hamburger');
@@ -152,8 +184,8 @@
       hamburger.classList.toggle('toggle');
     });
 
-    // Fade-in services cards
-    const cards = document.querySelectorAll('.card');
+    // Scroll animation
+    const cards = document.querySelectorAll('.card, .project-card');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
